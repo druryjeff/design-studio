@@ -1,0 +1,195 @@
+body {
+	line-height: 1.5rem;
+}
+
+.wrapper {
+	overflow: hidden;
+	max-width: 67.5rem;
+	width: 90%;
+	margin: 3rem auto;
+}
+
+@media screen and (min-width:67.5rem){
+
+	.col {
+		width: 65%;
+		float: left;
+	}
+
+	.col:first-child section:first-child {
+		padding-bottom: 1.5rem;
+		margin-bottom: 3rem;
+		border-bottom: 1px solid #ccc;
+	}
+
+	.col:last-child {
+		width: 30%;
+		float: right;
+		text-align: right;
+	}
+
+	.col:last-child ul {
+		margin-bottom: 3rem;
+	}
+
+}
+
+/* HEADER */
+
+header {
+	overflow: hidden;
+	margin-bottom: 3rem;
+}
+
+header h1 {
+	margin: 0;
+	line-height: 3rem;
+}
+
+h1 span {
+	font-weight: 400;
+}
+
+h1 span::before {
+	content: ' / ';
+}
+
+@media screen and (min-width:67.5rem){
+
+	header h1 {
+		float: left;
+		width: 50%;
+	}
+
+}
+
+/* NAV */
+
+nav ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav li a {
+	display: inline-block;
+	line-height: 3rem;
+}
+
+@media screen and (min-width:67.5rem){
+
+	nav {
+		float: left;
+		width: 50%;
+		text-align: right;
+	}
+
+	nav li {
+		margin-left: .5rem;
+	}
+
+}
+
+
+/* MAIN */
+
+main h1 {
+	font-size: 1.5rem;
+}
+
+main h2 {
+	font-size: 1rem;
+}
+
+
+/* GALLERY */
+
+.gallery {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.gallery li {
+	float: left;
+	width: 32%;
+	margin-right: 2%;
+	margin-bottom: 1.5rem;
+}
+
+.gallery li:nth-child(3n) {
+	margin-right: 0;
+}
+
+.gallery li a {
+	display: block;
+}
+
+.gallery li img {
+	width: 100%;
+}
+
+.gallery h4,
+.gallery p {
+	margin: 0;
+}
+
+.nav-extra {
+	margin-bottom: 1rem;
+}
+
+.nav-extra ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.nav-extra li {
+	display: inline-block;
+	margin-right: .5rem;
+}
+
+.bloglist {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.bloglist li {
+	overflow: hidden;
+	margin-bottom: 1.5rem;
+}
+
+.bloglist h4,
+.bloglist p {
+	margin: 0;
+}
+
+.bloglist h4 {
+	padding-top: .5rem;
+}
+
+.bloglist a {
+	text-decoration: none;
+}
+
+.bloglist img {
+	display: block;
+	width: 100%;
+}
+
+@media screen and (min-width:47.5rem){
+	
+	.bloglist img {
+		width: 30%;
+		float: left;
+		margin-right: 1.5rem;
+	}
+
+}
+
