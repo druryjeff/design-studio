@@ -46,11 +46,11 @@ header h1 {
 	line-height: 3rem;
 }
 
-h1 span {
+header h1 span {
 	font-weight: 400;
 }
 
-h1 span::before {
+header h1 span::before {
 	content: ' / ';
 }
 
@@ -103,6 +103,10 @@ main h1 {
 
 main h2 {
 	font-size: 1rem;
+}
+
+main ul:not(:first-of-type) {
+	margin-bottom: 1.5rem;
 }
 
 
