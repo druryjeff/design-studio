@@ -103,7 +103,7 @@ main h2 {
 		margin-bottom: 3rem;
 	}
 
-	.col ul:not(:first-of-type) {
+	.col section:not(:first-child) {
 		margin-bottom: 1.5rem;
 	}
 
